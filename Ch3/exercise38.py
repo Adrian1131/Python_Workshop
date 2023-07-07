@@ -1,0 +1,11 @@
+"""
+The Maximum Number
+"""
+
+l = [4, 2, 7]
+maximum = 0
+for number in l:
+    if number > maximum:
+        maximum = number
+    print(maximum)
+    
